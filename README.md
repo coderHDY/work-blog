@@ -31,6 +31,10 @@
 * 解析到github的ip下
 * `deploy.sh`第11行改成自己域名
     ```shell
+    echo 'coderhdy.com' > CNAME
+    ```
+* 执行命令：
+    ```shell
     bash deploy.sh
     ```
 # 更改配置项
