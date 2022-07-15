@@ -30,3 +30,15 @@
     ```shell
     bash deploy.sh
     ```
+# 更改配置项
+* 本地模式下，更改配置项，页面不刷新的情况，输入以下命令
+```shell
+pm2 restart all
+```
+# 查看日志
+```shell
+pm2 logs
+
+# 查看运行状态
+pm2 list
+```
