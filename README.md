@@ -13,6 +13,9 @@
 * `deploy.sh`文件22行改成自己仓库信息
     ```shell
     git push -f git@github.com:<USERNAME>/work-blog.git master:gh-pages
+
+    # 例：本仓库
+    git push -f git@github.com:coderHDY/work-blog.git master:gh-pages
     ```
 * 执行命令：
     ```shell
@@ -32,9 +35,9 @@
     ```
 # 更改配置项
 * 本地模式下，更改配置项，页面不刷新的情况，输入以下命令
-```shell
-pm2 restart all
-```
+    ```shell
+    pm2 restart all
+    ```
 # 查看日志
 ```shell
 pm2 logs
