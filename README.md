@@ -19,5 +19,6 @@
     bash deploy.sh
     ```
 # 其他插件
+* 配置到`docs/.vuepress/config.js`文件夹下`plugins`
 * [官方插件](https://vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html)
 * [其他插件](https://github.com/vuepress/awesome-vuepress/blob/main/v1.md)
