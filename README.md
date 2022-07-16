@@ -7,8 +7,12 @@
 
     npm run start
     ```
-* http://localhost:8089
-
+* http://localhost:8089/work-blog/
+# 更改配置项
+* 本地模式下，更改配置项，页面不刷新的情况，输入以下命令
+    ```shell
+    pm2 restart all
+    ```
 # 部署流程
 * `deploy.sh`文件22行改成自己仓库信息
     ```shell
@@ -36,11 +40,6 @@
 * 执行命令：
     ```shell
     bash deploy.sh
-    ```
-# 更改配置项
-* 本地模式下，更改配置项，页面不刷新的情况，输入以下命令
-    ```shell
-    pm2 restart all
     ```
 # 查看日志
 ```shell
