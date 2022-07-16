@@ -49,3 +49,14 @@ pm2 logs
 # 查看运行状态
 pm2 list
 ```
+# 自定义扩展markdown语法
+1. `docs/.vuepress/plugins`文件夹下写组件
+2. `enhanceAppFiles.js`注册组件
+3. `myPlugin.js`文件注册语法
+4. `utils`传入组件默认属性
+5. 注册完成，以下方式调用
+    ```md
+    ::: myComp attr1=val
+    content
+    :::
+    ```
