@@ -2,7 +2,8 @@ module.exports = {
     title: '西瓜皮儿',
     theme: 'reco',
     port: 8089,
-    base: '/work-blog/',
+    // host: '10.2.3.17',
+    // base: '/work-blog/',
     head: [
         ['link', { rel: 'icon', href: '/assets/favicon.png' }],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
