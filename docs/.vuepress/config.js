@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
     title: '西瓜皮儿',
     theme: 'reco',
@@ -56,4 +57,5 @@ module.exports = {
         lineNumbers: true
     },
     plugins: require('./plugins/index.js'),
+    clientRootMixin: path.resolve(__dirname, './plugins/mixins/index.js'),
 }
