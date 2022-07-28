@@ -13,8 +13,13 @@ const study = {
         },
     ]
 }
-
+const timeline = {
+    text: '时间线',
+    link: '/timeline/',
+    icon: 'reco-date'
+}
 module.exports = [
     home,
     study,
+    timeline,
 ]
